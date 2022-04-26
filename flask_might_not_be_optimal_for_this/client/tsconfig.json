@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "CommonJS",
+    "lib": ["DOM", "DOM.Iterable", "ES6", "ScriptHost"],
+    "sourceMap": true,
+    "outDir": "./public/dist",
+    "rootDir": "./src",
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "paths": {
+      "*": ["src/*"]
+    },
+    "esModuleInterop": true
+  },
+  "include": ["src/*.ts"],
+  "exclude": ["node_modules"]
+}
