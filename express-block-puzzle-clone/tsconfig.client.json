@@ -4,8 +4,7 @@
     "module": "CommonJS",
     "lib": ["DOM", "DOM.Iterable", "ES6", "ScriptHost"],
     "sourceMap": true,
-    "outDir": "./public/dist",
-    "outFile": "app.bundle.js",
+    "outDir": "public/dist",
     "baseUrl": "src/client",
     "resolveJsonModule": true,
     "esModuleInterop": true
