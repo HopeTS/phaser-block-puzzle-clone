@@ -4,8 +4,7 @@
     "module": "CommonJS",
     "lib": ["DOM", "DOM.Iterable", "ES6", "ScriptHost"],
     "sourceMap": true,
-    "outDir": "./src/server",
-    "outFile": "index.js",
+    "outDir": "./src/server/dist",
     "baseUrl": "src/server",
     "resolveJsonModule": true,
     "esModuleInterop": true
